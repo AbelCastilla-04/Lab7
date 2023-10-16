@@ -40,18 +40,23 @@
 #onpage {
   text-decoration: underline overline;
 }
-
 ~FOR SIDEBAR
-position: fixed;
-background-color: #000;
+#sidebar {
+  position: fixed;
+  right: 0%;
+  background-color: red;
+  height: 100%; 
+  width: 20%;
+}
+
+#sidebar ul { 
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
 text-decoration: none;
+background-color: #000;
 color: #fff;
 padding: 15px 0;
 display: block;
-padding: 0;
-text-align: center;
-width: 20%;
-height: 100%; 
-list-style-type: none;
-background-color: red;
-right: 0%;
